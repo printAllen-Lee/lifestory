@@ -1,0 +1,26 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/printPDA-6/projetoDH-1.git"
+  },
+  "author": "Grupo pda-6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/printPDA-6/projetoDH-1/issues"
+  },
+  "homepage": "https://github.com/printPDA-6/projetoDH-1#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "nodemon": "^2.0.22"
+  },
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": ""
+}

@@ -1,0 +1,77 @@
+.busca {
+    position: relative;
+    width: 594px;
+    height: 34px;
+    left: 65px;
+    top: 49px;
+    background: #D9D9D9;
+    border-radius: 59px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-header {
+    display: flex;
+}
+
+.img-logo {
+    width: 113px;
+    height: 44px;
+}
+
+.li-header {
+    width: 46px;
+    height: 18px;
+    left: 378px;
+    top: 11px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.box-anuncio {
+    position: absolute;
+    width: 461px;
+    height: 118px;
+    left: 209px;
+    top: 108px;
+    background: #D9D9D9;
+    border-radius: 13px;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    width: 708px;
+    height: 40px;
+    left: 8px;
+    top: 0px;
+    background: #D9D9D9;
+}
+
+.icon {
+    border-radius: 5px;
+    margin-top: 10px ;
+    margin: 10px;
+    border: 1px solid #666;
+    width:60px;
+    height:60px;
+    padding: 5px;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.categorias {
+    width: 11rem;
+    height: 30rem;
+    justify-content: center;
+    background: #D9D9D9;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}

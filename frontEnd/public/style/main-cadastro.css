@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    background-image: linear-gradient(to right top, #000000, #1b010e, #28031c, #32012e, #370044, #3b0052, #3e0162, #3e0472, #4d0478, #5b057e, #6a0684, #780789);
+    height: 5rem;
+    color: rgba(255, 255, 255, 0.747);
+    margin-bottom: 5rem;
+    padding: 1rem;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+header img{
+    display: block;
+    background: url("/img/logo.png") no-repeat 10px 4px;
+    padding: 40px 113px 40px 40px;
+    background-size: 100%;
+    border-radius: 10%;
+    
+}
+
+
+header a{
+    margin-right: 3rem;
+    color: aliceblue;
+}
+
+header a:hover{
+    color: burlywood;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-cadastro{
+    background-image: linear-gradient(to right top, #000000, #1c010f, #29031e, #330031, #37004a, #360051, #340058, #310060, #360153, #380548, #370a3d, #340f34);
+    color: white;
+    max-width: 25em;
+    min-width: 23rem;
+    max-height: 25rem;
+    min-height: 30rem;
+    padding: 15px;
+
+}
+.box-title{
+    display: flex;
+    justify-content: center;
+}
+
+.box-title h2{
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 0 0 20px;
+    font-weight: 500;
+    letter-spacing: .0246em;
+    font-family: iFood RC Titulos,iFood RC Textos,Helvetica,sans-serif;
+
+}
+.box-subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #dfdfdf;
+    margin: 0 0 22px;
+}
+
